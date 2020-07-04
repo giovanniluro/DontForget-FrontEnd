@@ -6,12 +6,13 @@ import Dashboard from './components/Dashboard';
 function App() {
 
   const [user, setUser] = useState('Lucas');
-
   return (
-    <Container> 
-      { user==='' && <Login setUser={setUser} />}
-      { user!=='' && <Dashboard user={user} setUser={setUser} />}
-    </Container>
+    <>
+      <Container>
+        {user === '' && <Login setUser={setUser} />}
+        {user !== '' && <Dashboard user={user} setUser={setUser} />}
+      </Container>
+    </>
   );
 }
 

@@ -5,7 +5,7 @@ import Dashboard from './components/Dashboard';
 
 function App() {
 
-  const [user, setUser] = useState('Lucas');
+  const [user, setUser] = useState('');
   return (
     <>
       <Container>

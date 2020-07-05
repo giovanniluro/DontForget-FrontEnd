@@ -117,6 +117,7 @@ export const Buttons = styled.div`
     font-size: 22px;
     border-radius: 20px;
     border: 0;
+    transition: background .4s;
 
     &:hover {
       background: #304060;
@@ -131,7 +132,7 @@ export const Buttons = styled.div`
     background: #E56B6F;
 
     &:hover {
-      background: #E06060;
+      background: #f6523c;
     }
   }
 
